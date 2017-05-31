@@ -10,15 +10,16 @@ $(document).ready(function() {
 		saveData(this.id);
 	});
 	
+	var $select = $('#unitselect');
+	
 	$.getJSON("./jsondata/data.json", function(json) {
 		myJson = json;
-		});
 		
-
-	var $select = $('#unitselect');
-	$.each(myJson, function(i, val){
-		$select.append($('<option />', { value: (i+1), text: val[i+1].name }));
+		$.each(myJson, function(i, val){
+			$select.append($('<option />', { value: (i+1), text: val[i+1].name }));
+		});
 	});
+
 	
 	$select.change(function() {
 		var unit = $(this).val();
