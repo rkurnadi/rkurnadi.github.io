@@ -10,11 +10,17 @@ p {
 
 input {
 	text-align: center;
-	width: 100px;
+	width: 90px;
 }
 
-table, th, td {
+.inventory table, th, td {
    border: 1px solid black;
+   text-align: center;
+}
+
+.matsneeded table, th, td {
+   border: 1px solid black;
+   text-align: center;
 }
 
 table {
@@ -24,4 +30,8 @@ table {
 
 .content {
 	width: 100px;
+}
+
+.cost td {
+	width: 60px;
 }

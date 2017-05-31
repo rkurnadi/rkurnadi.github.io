@@ -7,7 +7,7 @@
 	<script src="js/scripts.js"></script>
 <body>
 <h2>Materials in inventory</h2>
-<table>
+<table class="inventory">
 <tr>
 <th>Type</th>
 <th class="content">T1</th>
@@ -77,7 +77,7 @@
 </tr>
 </table>
 <h2>Materials needed</h2>
-<table>
+<table class="matsneeded">
 <tr>
 <th>Type</th>
 <th>T1</th>
@@ -149,10 +149,14 @@
 <p>
 <div class="myunits">
 	<select id="unitselect">
+		<option value="0">Select your unit...</option>
 	</select>
 	<select id="abilityselect">
 	</select>
 	<input type="button" id="addbtn" value="Add"/>
+</div>
+<div class="cost">
+<table><tbody></tbody></table>
 </div>
 
 </body>
