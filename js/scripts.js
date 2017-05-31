@@ -13,6 +13,8 @@ $(document).ready(function() {
 	$.getJSON("./jsondata/data.json", function(json) {
 		myJson = json;
 		});
+	
+	loadData();
 });
 
 function saveData(cellId) {
