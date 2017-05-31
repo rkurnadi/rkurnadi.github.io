@@ -1,0 +1,27 @@
+body {
+    background-color: powderblue;
+}
+h2 {
+    color: blue;
+}
+p {
+    color: red;
+}
+
+input {
+	text-align: center;
+	width: 100px;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+table {
+    table-layout:fixed;
+	width:600px;
+}
+
+.content {
+	width: 100px;
+}

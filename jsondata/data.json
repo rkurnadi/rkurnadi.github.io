@@ -1,0 +1,59 @@
+[
+{
+	"name":"Chizuru",
+	"ability":[
+		{ "name": "Molt+1",
+		  "type": "Support",
+		  "T1": "10",
+		  "T2": "8",
+		  "T3": "3",
+		  "T4": "0",
+		  "T5": "0"
+		},
+		{ "name": "Molt+2",
+		  "type": "Support",
+		  "T1": "15",
+		  "T2": "12",
+		  "T3": "5",
+		  "T4": "1",
+		  "T5": "0"
+		},
+		{ "name": "Phantom Shadow+1",
+		  "type": "Power",
+		  "T1": "15",
+		  "T2": "10",
+		  "T3": "8",
+		  "T4": "2",
+		  "T5": "1"
+		},
+		{ "name": "Phantom Shadow+2",
+		  "type": "Power",
+		  "T1": "23",
+		  "T2": "15",
+		  "T3": "12",
+		  "T4": "4",
+		  "T5": "2"
+		}]
+},
+{
+	"name":"Seven",
+	"ability":[
+		{ "name":"Osmoselash+1",
+		  "type": "Support",
+		  "T1": "10",
+		  "T2": "8",
+		  "T3": "3",
+		  "T4": "0",
+		  "T5": "0"
+		},
+		{ "name": "Osmoselash+2",
+		  "type": "Support",
+		  "T1": "15",
+		  "T2": "12",
+		  "T3": "5",
+		  "T4": "1",
+		  "T5": "0"
+		}
+	]
+}
+]
