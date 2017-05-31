@@ -14,6 +14,7 @@ $(document).ready(function() {
 		myJson = json;
 		});
 		
+
 	var $select = $('#unitselect');
 	$.each(myJson, function(i, val){
 		$select.append($('<option />', { value: (i+1), text: val[i+1].name }));
