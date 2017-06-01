@@ -15,7 +15,7 @@ var myJson;
 
 $(document).ready(function() {
     // all custom jQuery will go here
-	loadData();
+	
 
 		
 	$('input[type=number]').on('input', function() {
@@ -43,6 +43,8 @@ $(document).ready(function() {
 		$.each(myJson, function(i, val){
 			$select.append($('<option />', { value: (i+1), text: val.name }));
 		});
+		
+		loadData();
 	});
 
 	var index;
