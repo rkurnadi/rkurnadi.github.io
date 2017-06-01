@@ -1,59 +1,23 @@
 [
-{
-	"name":"Chizuru",
-	"ability":[
-		{ "name": "Molt+1",
-		  "type": "Support",
-		  "T1": "10",
-		  "T2": "8",
-		  "T3": "3",
-		  "T4": "0",
-		  "T5": "0"
-		},
-		{ "name": "Molt+2",
-		  "type": "Support",
-		  "T1": "15",
-		  "T2": "12",
-		  "T3": "5",
-		  "T4": "1",
-		  "T5": "0"
-		},
-		{ "name": "Phantom Shadow+1",
-		  "type": "Power",
-		  "T1": "15",
-		  "T2": "10",
-		  "T3": "8",
-		  "T4": "2",
-		  "T5": "1"
-		},
-		{ "name": "Phantom Shadow+2",
-		  "type": "Power",
-		  "T1": "23",
-		  "T2": "15",
-		  "T3": "12",
-		  "T4": "4",
-		  "T5": "2"
-		}]
-},
-{
-	"name":"Seven",
-	"ability":[
-		{ "name":"Osmoselash+1",
-		  "type": "Support",
-		  "T1": "10",
-		  "T2": "8",
-		  "T3": "3",
-		  "T4": "0",
-		  "T5": "0"
-		},
-		{ "name": "Osmoselash+2",
-		  "type": "Support",
-		  "T1": "15",
-		  "T2": "12",
-		  "T3": "5",
-		  "T4": "1",
-		  "T5": "0"
-		}
-	]
-}
+{"name": "Rain", "ability": [{"name": "Flaming Soul+1", "T4": "0", "T5": "0", "T2": "5", "T3": "1", "T1": "10", "type": "Support"}, {"name": "Flaming Soul+2", "T4": "1", "T5": "0", "T2": "8", "T3": "2", "T1": "15", "type": "Support"}, {"name": "Lava Floor+1", "T4": "0", "T5": "0", "T2": "8", "T3": "3", "T1": "10", "type": "Power"}, {"name": "Lava Floor+2", "T4": "1", "T5": "0", "T2": "12", "T3": "5", "T1": "15", "type": "Power"}, {"name": "Leadership+1", "T4": "4", "T5": "0", "T2": "15", "T3": "10", "T1": "20", "type": "Support"}, {"name": "Leadership+2", "T4": "8", "T5": "0", "T2": "23", "T3": "15", "T1": "30", "type": "Support"}]},
+{"name": "Nichol", "ability": [{"name": "Back to the Wall+1", "T4": "0", "T5": "0", "T2": "5", "T3": "1", "T1": "10", "type": "Support"}, {"name": "Back to the Wall+2", "T4": "1", "T5": "0", "T2": "8", "T3": "2", "T1": "15", "type": "Support"}, {"name": "Impenetrable Stance+1", "T4": "0", "T5": "0", "T2": "5", "T3": "1", "T1": "10", "type": "Support"}, {"name": "Impenetrable Stance+2", "T4": "1", "T5": "0", "T2": "8", "T3": "2", "T1": "15", "type": "Support"}]},
+{"name": "Lid", "ability": [{"name": "Invention+1", "T4": "0", "T5": "0", "T2": "5", "T3": "1", "T1": "10", "type": "Power"}, {"name": "Invention+2", "T4": "0", "T5": "0", "T2": "8", "T3": "2", "T1": "15", "type": "Power"}, {"name": "Upgrade+1", "T4": "0", "T5": "0", "T2": "1", "T3": "0", "T1": "3", "type": "Support"}, {"name": "Upgrade+2", "T4": "0", "T5": "0", "T2": "2", "T3": "0", "T1": "5", "type": "Support"}]},
+{"name": "Fina", "ability": [{"name": "Cheer+1", "T4": "0", "T5": "0", "T2": "5", "T3": "1", "T1": "10", "type": "Support"}, {"name": "Cheer+2", "T4": "0", "T5": "0", "T2": "8", "T3": "2", "T1": "15", "type": "Support"}, {"name": "Curaga+1", "T4": "0", "T5": "0", "T2": "8", "T3": "3", "T1": "10", "type": "White"}, {"name": "Curaga+2", "T4": "0", "T5": "0", "T2": "12", "T3": "5", "T1": "15", "type": "White"}]},
+{"name": "Lasswell", "ability": [{"name": "Blade Flash 0 Awakened+1", "T4": "4", "T5": "1", "T2": "15", "T3": "10", "T1": "20", "type": "Power"}, {"name": "Blade Flash 0 Awakened+2", "T4": "8", "T5": "1", "T2": "23", "T3": "15", "T1": "30", "type": "Power"}, {"name": "Heir to the Blade+1", "T4": "0", "T5": "0", "T2": "8", "T3": "3", "T1": "10", "type": "Support"}, {"name": "Heir to the Blade+2", "T4": "1", "T5": "0", "T2": "12", "T3": "5", "T1": "15", "type": "Support"}, {"name": "Mirror of Equity+1", "T4": "0", "T5": "0", "T2": "1", "T3": "0", "T1": "3", "type": "Power"}, {"name": "Mirror of Equity+2", "T4": "0", "T5": "0", "T2": "2", "T3": "0", "T1": "5", "type": "Power"}]},
+{"name": "Seven", "ability": [{"name": "Yakabe+1", "T4": "1", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "Support"}, {"name": "Yakabe+2", "T4": "2", "T5": "1", "T2": "12", "T3": "8", "T1": "23", "type": "Support"}, {"name": "Osmoselash+1", "T4": "0", "T5": "0", "T2": "8", "T3": "3", "T1": "10", "type": "Power"}, {"name": "Osmoselash+2", "T4": "1", "T5": "0", "T2": "12", "T3": "5", "T1": "15", "type": "Power"}, {"name": "Elementalash+1", "T4": "2", "T5": "0", "T2": "10", "T3": "8", "T1": "15", "type": "Power"}, {"name": "Elementalash+2", "T4": "4", "T5": "2", "T2": "15", "T3": "12", "T1": "23", "type": "Power"}]},
+{"name": "Mercedes", "ability": [{"name": "Axe Mastery+1", "T4": "1", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "Support"}, {"name": "Axe Mastery+2", "T4": "2", "T5": "1", "T2": "12", "T3": "8", "T1": "23", "type": "Support"}, {"name": "Sea King's Chop+1", "T4": "4", "T5": "0", "T2": "15", "T3": "10", "T1": "20", "type": "Power"}, {"name": "Sea King's Chop+2", "T4": "8", "T5": "2", "T2": "23", "T3": "15", "T1": "30", "type": "Power"}, {"name": "Warcry+1", "T4": "1", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "Support"}, {"name": "Warcry+2", "T4": "2", "T5": "1", "T2": "12", "T3": "8", "T1": "23", "type": "Support"}]},
+{"name": "Hope", "ability": [{"name": "Waterga+1", "T4": "0", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "Black"}, {"name": "Waterga+2", "T4": "1", "T5": "0", "T2": "12", "T3": "8", "T1": "23", "type": "Black"}, {"name": "Aeroga+1", "T4": "0", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "Black"}, {"name": "Aeroga+2", "T4": "1", "T5": "0", "T2": "12", "T3": "8", "T1": "23", "type": "Black"}, {"name": "MAG +20%+1", "T4": "0", "T5": "0", "T2": "8", "T3": "3", "T1": "10", "type": "Support"}, {"name": "MAG +20%+2", "T4": "1", "T5": "0", "T2": "12", "T3": "5", "T1": "15", "type": "Support"}]},
+{"name": "Vanille", "ability": [{"name": "Cheer+1", "T4": "0", "T5": "0", "T2": "5", "T3": "1", "T1": "10", "type": "Support"}, {"name": "Cheer+2", "T4": "1", "T5": "0", "T2": "8", "T3": "2", "T1": "15", "type": "Support"}, {"name": "Focus+1", "T4": "0", "T5": "0", "T2": "5", "T3": "1", "T1": "10", "type": "Support"}, {"name": "Focus+2", "T4": "1", "T5": "0", "T2": "8", "T3": "2", "T1": "15", "type": "Support"}, {"name": "Keep it up!+1", "T4": "0", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "Support"}, {"name": "Keep it up!+2", "T4": "1", "T5": "0", "T2": "12", "T3": "8", "T1": "23", "type": "Support"}]},
+{"name": "Snow", "ability": [{"name": "Counter+1", "T4": "0", "T5": "0", "T2": "5", "T3": "1", "T1": "10", "type": "Power"}, {"name": "Counter+2", "T4": "1", "T5": "0", "T2": "8", "T3": "2", "T1": "15", "type": "Power"}, {"name": "Fighting Spirit+1", "T4": "0", "T5": "0", "T2": "5", "T3": "1", "T1": "10", "type": "Power"}, {"name": "Fighting Spirit+2", "T4": "1", "T5": "0", "T2": "8", "T3": "2", "T1": "15", "type": "Power"}, {"name": "Battle Roar+1", "T4": "2", "T5": "1", "T2": "10", "T3": "8", "T1": "15", "type": "Support"}, {"name": "Battle Roar+2", "T4": "4", "T5": "1", "T2": "15", "T3": "12", "T1": "23", "type": "Support"}]},
+{"name": "Dark Fina", "ability": [{"name": "Retaliate+1", "T4": "2", "T5": "1", "T2": "10", "T3": "8", "T1": "15", "type": "Power"}, {"name": "Retaliate+2", "T4": "4", "T5": "2", "T2": "15", "T3": "12", "T1": "23", "type": "Power"}, {"name": "Dystopia+1", "T4": "4", "T5": "2", "T2": "15", "T3": "10", "T1": "20", "type": "Power"}, {"name": "Dystopia+2", "T4": "8", "T5": "2", "T2": "23", "T3": "15", "T1": "30", "type": "Power"}, {"name": "Ultima+1", "T4": "4", "T5": "1", "T2": "15", "T3": "10", "T1": "20", "type": "Black"}, {"name": "Ultima+2", "T4": "8", "T5": "2", "T2": "23", "T3": "15", "T1": "30", "type": "Black"}]},
+{"name": "Delita", "ability": [{"name": "Helm Break+1", "T4": "1", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "Power"}, {"name": "Helm Break+2", "T4": "2", "T5": "1", "T2": "12", "T3": "8", "T1": "23", "type": "Power"}, {"name": "Shield Break+1", "T4": "1", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "Power"}, {"name": "Shield Break+2", "T4": "2", "T5": "1", "T2": "12", "T3": "8", "T1": "23", "type": "Power"}, {"name": "Meditate+1", "T4": "1", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "Support"}, {"name": "Meditate+2", "T4": "2", "T5": "1", "T2": "12", "T3": "8", "T1": "23", "type": "Support"}]},
+{"name": "Lightning", "ability": [{"name": "Crushing Blow+1", "T4": "4", "T5": "2", "T2": "15", "T3": "10", "T1": "20", "type": "Power"}, {"name": "Crushing Blow+2", "T4": "8", "T5": "2", "T2": "23", "T3": "15", "T1": "30", "type": "Power"}, {"name": "Area Blast+1", "T4": "0", "T5": "0", "T2": "8", "T3": "3", "T1": "10", "type": "Power"}, {"name": "Area Blast+2", "T4": "1", "T5": "0", "T2": "12", "T3": "5", "T1": "15", "type": "Power"}, {"name": "Lightspeed+1", "T4": "1", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "Support"}, {"name": "Lightspeed+2", "T4": "2", "T5": "1", "T2": "12", "T3": "8", "T1": "23", "type": "Support"}]},
+{"name": "Garnet", "ability": [{"name": "Curaja+1", "T4": "0", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "White"}, {"name": "Curaja+2", "T4": "2", "T5": "0", "T2": "12", "T3": "8", "T1": "23", "type": "White"}, {"name": "Raise+1", "T4": "0", "T5": "0", "T2": "5", "T3": "1", "T1": "10", "type": "White"}, {"name": "Raise+2", "T4": "0", "T5": "0", "T2": "8", "T3": "2", "T1": "15", "type": "White"}, {"name": "EVO MAG +30%+1", "T4": "0", "T5": "0", "T2": "8", "T3": "3", "T1": "10", "type": "Support"}, {"name": "EVO MAG +30%+2", "T4": "1", "T5": "0", "T2": "12", "T3": "5", "T1": "15", "type": "Support"}]},
+{"name": "Chizuru", "ability": [{"name": "High Tide+1", "T4": "0", "T5": "0", "T2": "5", "T3": "1", "T1": "10", "type": "Support"}, {"name": "High Tide+2", "T4": "1", "T5": "0", "T2": "8", "T3": "2", "T1": "15", "type": "Support"}, {"name": "Molt+1", "T4": "0", "T5": "0", "T2": "8", "T3": "3", "T1": "10", "type": "Support"}, {"name": "Molt+2", "T4": "1", "T5": "0", "T2": "12", "T3": "5", "T1": "15", "type": "Support"}, {"name": "Phantom Shadow+1", "T4": "2", "T5": "1", "T2": "10", "T3": "8", "T1": "15", "type": "Power"}, {"name": "Phantom Shadow+2", "T4": "4", "T5": "2", "T2": "15", "T3": "12", "T1": "23", "type": "Power"}]},
+{"name": "Medius", "ability": [{"name": "Hyper Fire+1", "T4": "1", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "Power"}, {"name": "Hyper Fire+2", "T4": "2", "T5": "0", "T2": "12", "T3": "8", "T1": "23", "type": "Power"}, {"name": "Gun Master+1", "T4": "2", "T5": "0", "T2": "10", "T3": "8", "T1": "15", "type": "Support"}, {"name": "Gun Master+2", "T4": "4", "T5": "1", "T2": "15", "T3": "12", "T1": "23", "type": "Support"}, {"name": "Auto0Limit+1", "T4": "0", "T5": "0", "T2": "8", "T3": "3", "T1": "10", "type": "Support"}, {"name": "Auto0Limit+2", "T4": "1", "T5": "0", "T2": "12", "T3": "5", "T1": "15", "type": "Support"}]},
+{"name": "Roselia", "ability": [{"name": "Pray+1", "T4": "0", "T5": "0", "T2": "2", "T3": "0", "T1": "5", "type": "Healing"}, {"name": "Pray+2", "T4": "0", "T5": "0", "T2": "3", "T3": "1", "T1": "8", "type": "Healing"}, {"name": "Curaja+1", "T4": "1", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "White"}, {"name": "Curaja+2", "T4": "2", "T5": "0", "T2": "12", "T3": "8", "T1": "23", "type": "White"}]},
+{"name": "Bartz", "ability": [{"name": "Boco Pendant+1", "T4": "1", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "Support"}, {"name": "Boco Pendant+2", "T4": "2", "T5": "1", "T2": "12", "T3": "8", "T1": "23", "type": "Support"}, {"name": "Life Giver+1", "T4": "2", "T5": "0", "T2": "10", "T3": "8", "T1": "15", "type": "Support"}, {"name": "Life Giver+2", "T4": "4", "T5": "2", "T2": "15", "T3": "12", "T1": "23", "type": "Support"}, {"name": "Wind Shear+1", "T4": "2", "T5": "0", "T2": "10", "T3": "8", "T1": "15", "type": "Power"}, {"name": "Wind Shear+2", "T4": "4", "T5": "2", "T2": "15", "T3": "12", "T1": "23", "type": "Power"}]},
+{"name": "Kuja", "ability": [{"name": "Barthundara+1", "T4": "0", "T5": "0", "T2": "3", "T3": "0", "T1": "8", "type": "Green"}, {"name": "Barthundara+2", "T4": "0", "T5": "0", "T2": "5", "T3": "1", "T1": "12", "type": "Green"}, {"name": "Thundaga+1", "T4": "1", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "Black"}, {"name": "Thundaga+2", "T4": "1", "T5": "0", "T2": "12", "T3": "8", "T1": "23", "type": "Black"}]},
+{"name": "Kain", "ability": [{"name": "Dragon Dive+1", "T4": "0", "T5": "0", "T2": "8", "T3": "3", "T1": "10", "type": "Power"}, {"name": "Dragon Dive+2", "T4": "1", "T5": "0", "T2": "12", "T3": "5", "T1": "15", "type": "Power"}, {"name": "Dragoon Spirit+1", "T4": "1", "T5": "0", "T2": "8", "T3": "5", "T1": "15", "type": "Support"}, {"name": "Dragoon Spirit+2", "T4": "2", "T5": "0", "T2": "12", "T3": "8", "T1": "23", "type": "Support"}]},
+{"name": "Krile", "ability": [{"name": "Dual Front+1", "T4": "0", "T5": "0", "T2": "8", "T3": "3", "T1": "10", "type": "Support"}, {"name": "Dual Front+2", "T4": "1", "T5": "0", "T2": "12", "T3": "5", "T1": "15", "type": "Support"}, {"name": "Bluff+1", "T4": "0", "T5": "0", "T2": "8", "T3": "0", "T1": "15", "type": "Support"}, {"name": "Bluff+2", "T4": "0", "T5": "0", "T2": "5", "T3": "1", "T1": "12", "type": "Support"}]}
 ]
