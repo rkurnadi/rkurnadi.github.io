@@ -6,6 +6,8 @@ body {
 
 h2 {
     color: blue;
+	width: 100%;
+	text-align: center;
 }
 p {
     color: red;
@@ -29,6 +31,7 @@ input {
 table {
     table-layout:fixed;
 	border-collapse: collapse;
+	margin: 0 auto;
 }
 
 .content {
@@ -38,3 +41,20 @@ table {
 .cost td {
 	width: 60px;
 }
+
+.crysttable {
+	border-radius: 25px;
+	margin: 0 auto;
+	width: 1000px;
+	background-color: lightblue;	
+	padding-bottom: 20px;
+}
+
+.myunits {
+	margin: 0 auto;
+	width: 1000px;
+	background-color: lightblue;
+	text-align:center;
+	position:relative;
+}
+

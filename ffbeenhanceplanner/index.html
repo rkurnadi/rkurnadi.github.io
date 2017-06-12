@@ -9,6 +9,7 @@
 	<script src="js/scripts.js"></script>
 	
 <body>
+<div  class="crysttable">
 <h2>Materials in inventory</h2>
 <table class="inventory">
 <tr>
@@ -18,6 +19,14 @@
 <th class="content">T3</th>
 <th class="content">T4</th>
 <th class="content">T5</th>
+</tr>
+<tr>
+<td>White</td>
+<td><input type="number" id="wht1"></td>
+<td><input type="number" id="wht2"></td>
+<td><input type="number" id="wht3"></td>
+<td><input type="number" id="wht4"></td>
+<td><input type="number" id="wht5"></td>
 </tr>
 <tr>
 <td>Black</td>
@@ -36,20 +45,6 @@
 <td><input type="number" id="grt5"></td>
 </tr>
 <tr>
-<td>White</td>
-<td><input type="number" id="wht1"></td>
-<td><input type="number" id="wht2"></td>
-<td><input type="number" id="wht3"></td>
-<td><input type="number" id="wht4"></td>
-<td><input type="number" id="wht5"></td>
-</tr>
-<td>Guard</td>
-<td><input type="number" id="gut1"></td>
-<td><input type="number" id="gut2"></td>
-<td><input type="number" id="gut3"></td>
-<td><input type="number" id="gut4"></td>
-<td><input type="number" id="gut5"></td>
-</tr>
 <td>Power</td>
 <td><input type="number" id="pot1"></td>
 <td><input type="number" id="pot2"></td>
@@ -57,13 +52,15 @@
 <td><input type="number" id="pot4"></td>
 <td><input type="number" id="pot5"></td>
 </tr>
-<td>Tech</td>
-<td><input type="number" id="tet1"></td>
-<td><input type="number" id="tet2"></td>
-<td><input type="number" id="tet3"></td>
-<td><input type="number" id="tet4"></td>
-<td><input type="number" id="tet5"></td>
+<tr>
+<td>Guard</td>
+<td><input type="number" id="gut1"></td>
+<td><input type="number" id="gut2"></td>
+<td><input type="number" id="gut3"></td>
+<td><input type="number" id="gut4"></td>
+<td><input type="number" id="gut5"></td>
 </tr>
+<tr>
 <td>Healing</td>
 <td><input type="number" id="het1"></td>
 <td><input type="number" id="het2"></td>
@@ -71,6 +68,7 @@
 <td><input type="number" id="het4"></td>
 <td><input type="number" id="het5"></td>
 </tr>
+<tr>
 <td>Support</td>
 <td><input type="number" id="sut1"></td>
 <td><input type="number" id="sut2"></td>
@@ -78,7 +76,18 @@
 <td><input type="number" id="sut4"></td>
 <td><input type="number" id="sut5"></td>
 </tr>
+<tr>
+<td>Tech</td>
+<td><input type="number" id="tet1"></td>
+<td><input type="number" id="tet2"></td>
+<td><input type="number" id="tet3"></td>
+<td><input type="number" id="tet4"></td>
+<td><input type="number" id="tet5"></td>
+</tr>
+
 </table>
+</div>
+<div class="crysttable">
 <h2>Materials needed</h2>
 <table class="matsneeded">
 <tr>
@@ -88,6 +97,14 @@
 <th>T3</th>
 <th>T4</th>
 <th>T5</th>
+</tr>
+<tr>
+<td>White</td>
+<td class="content"><input type="number" id="whit1" readonly></td>
+<td class="content"><input type="number" id="whit2" readonly></td>
+<td class="content"><input type="number" id="whit3" readonly></td>
+<td class="content"><input type="number" id="whit4" readonly></td>
+<td class="content"><input type="number" id="whit5" readonly></td>
 </tr>
 <tr>
 <td>Black</td>
@@ -106,20 +123,6 @@
 <td class="content"><input type="number" id="gret5" readonly></td>
 </tr>
 <tr>
-<td>White</td>
-<td class="content"><input type="number" id="whit1" readonly></td>
-<td class="content"><input type="number" id="whit2" readonly></td>
-<td class="content"><input type="number" id="whit3" readonly></td>
-<td class="content"><input type="number" id="whit4" readonly></td>
-<td class="content"><input type="number" id="whit5" readonly></td>
-</tr>
-<td>Guard</td>
-<td class="content"><input type="number" id="guat1" readonly></td>
-<td class="content"><input type="number" id="guat2" readonly></td>
-<td class="content"><input type="number" id="guat3" readonly></td>
-<td class="content"><input type="number" id="guat4" readonly></td>
-<td class="content"><input type="number" id="guat5" readonly></td>
-</tr>
 <td>Power</td>
 <td class="content"><input type="number" id="powt1" readonly></td>
 <td class="content"><input type="number" id="powt2" readonly></td>
@@ -127,13 +130,15 @@
 <td class="content"><input type="number" id="powt4" readonly></td>
 <td class="content"><input type="number" id="powt5" readonly></td>
 </tr>
-<td>Tech</td>
-<td class="content"><input type="number" id="tect1" readonly></td>
-<td class="content"><input type="number" id="tect2" readonly></td>
-<td class="content"><input type="number" id="tect3" readonly></td>
-<td class="content"><input type="number" id="tect4" readonly></td>
-<td class="content"><input type="number" id="tect5" readonly></td>
+<tr>
+<td>Guard</td>
+<td class="content"><input type="number" id="guat1" readonly></td>
+<td class="content"><input type="number" id="guat2" readonly></td>
+<td class="content"><input type="number" id="guat3" readonly></td>
+<td class="content"><input type="number" id="guat4" readonly></td>
+<td class="content"><input type="number" id="guat5" readonly></td>
 </tr>
+<tr>
 <td>Healing</td>
 <td class="content"><input type="number" id="heat1" readonly></td>
 <td class="content"><input type="number" id="heat2" readonly></td>
@@ -141,6 +146,7 @@
 <td class="content"><input type="number" id="heat4" readonly></td>
 <td class="content"><input type="number" id="heat5" readonly></td>
 </tr>
+<tr>
 <td>Support</td>
 <td class="content"><input type="number" id="supt1" readonly></td>
 <td class="content"><input type="number" id="supt2" readonly></td>
@@ -148,7 +154,16 @@
 <td class="content"><input type="number" id="supt4" readonly></td>
 <td class="content"><input type="number" id="supt5" readonly></td>
 </tr>
+<tr>
+<td>Tech</td>
+<td class="content"><input type="number" id="tect1" readonly></td>
+<td class="content"><input type="number" id="tect2" readonly></td>
+<td class="content"><input type="number" id="tect3" readonly></td>
+<td class="content"><input type="number" id="tect4" readonly></td>
+<td class="content"><input type="number" id="tect5" readonly></td>
+</tr>
 </table>
+</div>
 <p>
 <div class="myunits">
 	<select id="unitselect">
